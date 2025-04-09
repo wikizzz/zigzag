@@ -19,6 +19,6 @@ def decode(text, rows):
     
     return ''.join(result)
 
-message = 'Wnb.r.ietoeh Fo"lKutrts"znl cc hi ee ekOtggsnkidy hini cna neea civo lh'
+message = ''
 for num in range(3, 15):
     print(decode(message, num))
